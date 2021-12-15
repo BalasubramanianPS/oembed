@@ -1,0 +1,11 @@
+---
+- provider_name: ZOHOMarketplace
+  provider_url: https://marketplace.zoho.com/
+  endpoints:
+  - schemes:
+    - https://marketplace.zoho.com
+    url: https://marketplace.zoho.com//oembed
+    discovery: true
+    example_urls:
+    - https://marketplace.zoho.com/oembed?url=https%3A%2F%2Fmarketplace.zoho.com%2Fapp%2Fmail%2Fegnyte-for-zoho-mail
+...
